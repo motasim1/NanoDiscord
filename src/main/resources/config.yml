@@ -1,0 +1,25 @@
+# The mysql credentials to use for the plugin.
+mysql:
+  host: ""
+  username: ""
+  password: ""
+  dbname: ""
+  port: ""
+
+# Staff chats, add more if wanted.
+# Players can join and use the staffchat if they have the permission
+# nanocraft.staffchat.<staffchat that is listed>
+staffchats:
+  - staff
+  - mods
+  - admins
+  - managers
+# Staff chats can have their own colours that will be displayed
+# before the player's name.
+
+# Please remember to add the colour for each staff chat that you add.
+staffchat.colors:
+  staff: "&a"
+  mods: "&b"
+  admins: "&d"
+  managers: "&c"
